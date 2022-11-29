@@ -98,7 +98,6 @@
             //grab data
             let response = await fetch('assets/wa-covid-data-102521.geojson');
             let deathPer10k = await response.json();
-            console.log (deathPer10k)
 
             map.on('load', function loadingData() {
                 // add layer ?????
@@ -152,7 +151,7 @@
                 '#F5C25C80',
                 '#F5995C80',
                 '#F5665C80',
-                '#F5665C80'
+                '#F4483F80'
 
                 
             ];
